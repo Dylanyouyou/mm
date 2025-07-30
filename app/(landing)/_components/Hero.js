@@ -21,14 +21,16 @@ const Hero = () => {
       <h1 className="text-6xl font-bold font-stopbuck text-center">$KITTY</h1>
 
       <div className="relative max-w-lg w-full px-4">
-        <div
-          className="bg-white bg-opacity-20 rounded-lg p-4 cursor-pointer hover:bg-opacity-30 transition-all border border-white border-opacity-30"
-          onClick={copyToClipboard}
-        >
-          <p className="text-sm font-medium mb-2 text-center">Contract Address (Click to Copy)</p>
-          <p className="text-xs font-mono break-all text-center select-all">
+        <div className="flex items-center gap-2">
+          <div className="bg-white bg-opacity-20 rounded-lg p-4 border border-white border-opacity-30 text-center select-all break-all text-xs font-mono flex-1">
             {contractAddress}
-          </p>
+          </div>
+          <button
+            onClick={copyToClipboard}
+            className="bg-white bg-opacity-20 hover:bg-opacity-30 border border-white border-opacity-30 rounded-lg p-4 transition-all text-lg"
+          >
+            📋
+          </button>
         </div>
 
         {copySuccess && (
