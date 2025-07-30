@@ -7,24 +7,6 @@ const About = () => {
       <div className="flex absolute -top-24 max-w-full overflow-clip">
         <div className="cloud -ms-6"></div>
         <div className="cloud -ms-6 rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
       </div>
       <div id="about" className="max-w-[85rem] px-4 py-10 sm:py-14 mx-auto">
         <div className="my-7">
