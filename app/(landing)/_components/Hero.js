@@ -22,24 +22,13 @@ const Hero = () => {
 
       <div className="relative max-w-lg w-full px-4">
         <div className="flex items-center gap-2">
-          <div className="bg-white bg-opacity-20 rounded-lg p-4 border border-white border-opacity-30 text-center select-all break-all text-xs font-mono flex-1">
-            {contractAddress}
-          </div>
-          <button
-            onClick={copyToClipboard}
-            className="bg-white bg-opacity-20 hover:bg-opacity-30 border border-white border-opacity-30 rounded-lg p-4 transition-all text-lg"
-          >
-            📋
-          </button>
+          <input
+            className="inline-block bg-gray-100 rounded-xl text-black text-ellipsis w-full font-stopbuck font-medium text-lg sm:text-2xl"
+            contentEditable={false}
+            value={contractAddress}
+            style={{padding: "16px 96px 16px 16px"}}
+          />
         </div>
-
-        {copySuccess && (
-          <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2">
-            <p className="text-sm font-medium bg-green-500 text-white px-3 py-1 rounded">
-              Copied!
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );
