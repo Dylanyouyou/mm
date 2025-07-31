@@ -67,10 +67,10 @@ body {
   background: #e4e0e1;
   margin-left: -24px;
   mask:
-    radial-gradient(50% 50%, #000 98%, #0000) 100% 100% / 30% 60% no-repeat,
-    radial-gradient(50% 50%, #000 98%, #0000) 70% 0 / 50% 100% no-repeat,
-    radial-gradient(50% 50%, #000 98%, #0000) 0 100% / 36% 68% no-repeat,
-    radial-gradient(50% 50%, #000 98%, #0000) 27% 18% / 26% 40% no-repeat,
+    radial-gradient(closest-side at 50% 50%, #000 98%, #0000) 100% 100% / 30% 60% no-repeat,
+    radial-gradient(closest-side at 50% 50%, #000 98%, #0000) 70% 0 / 50% 100% no-repeat,
+    radial-gradient(closest-side at 50% 50%, #000 98%, #0000) 0 100% / 36% 68% no-repeat,
+    radial-gradient(closest-side at 50% 50%, #000 98%, #0000) 27% 18% / 26% 40% no-repeat,
     linear-gradient(#000 0 0) 50% 100% / 67% 58% no-repeat;
   mask-composite: add;
 }
