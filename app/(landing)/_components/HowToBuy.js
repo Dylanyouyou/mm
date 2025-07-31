@@ -1,6 +1,5 @@
 import React from "react";
 import OrderCard from "@/components/OrderCard";
-import ContractAddress from "@/components/ContractAddress";
 
 const HowToBuy = () => {
   return (
@@ -72,7 +71,6 @@ const HowToBuy = () => {
       </div>
 
       <div className="my-16">
-        <ContractAddress />
       </div>
     </div>
   );

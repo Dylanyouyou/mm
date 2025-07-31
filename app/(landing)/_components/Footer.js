@@ -13,8 +13,9 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-md/relaxed text-gray-500">
-            © &nbsp; <span className="text-duis text-shadow">DUIS</span>{" "}
-            community 2024.
+            © &nbsp; <span>
+              <p>community 2025.</p>
+            </span>
             <br />
             <span className="underline decoration-duis">
               {"All cutes reserved for duis's dawgs."}
@@ -25,7 +26,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div class="overflow-hidden relative h-24">
+      <div className="overflow-hidden relative h-24">
         <img className="absolute bottom-0 w-full" src="grass.svg" alt="grass" />
       </div>
 
