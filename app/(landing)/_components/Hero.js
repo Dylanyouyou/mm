@@ -11,8 +11,8 @@ const Hero = () => {
         <div className="flex items-center gap-2">
           <input
             className="inline-block bg-gray-100 rounded-xl text-black text-ellipsis w-full font-stopbuck font-medium text-lg sm:text-2xl"
-            contentEditable={false}
-            value={contractAddress}
+            readOnly
+            defaultValue={contractAddress}
             style={{padding: "16px 96px 16px 16px"}}
           />
         </div>
