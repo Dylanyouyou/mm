@@ -1,48 +1,124 @@
-# 🐸 Memecoin Website Template
+# $KITTY - Cryptocurrency Landing Page
 
-This is an open-source **Memecoin Website Template** built with **Next.js**. It's designed to help crypto projects launch their website quickly with a clean, modern, and fun design.
+A modern, responsive landing page built with Next.js for the $KITTY cryptocurrency token.
 
-![Memecoin Website Demo](public/screencapture.png)  
+## Features
 
-## 🚀 Features
+- 🎨 Modern design with custom animations
+- 📱 Fully responsive layout
+- 🎯 Interactive contract address copying
+- 🌟 Custom typography with Stopbuck font
+- 🎭 Animated UI components
+- 🔗 Social media integration
+- 💰 Exchange links and information
 
-- **Fast & SEO-friendly** with Next.js
-- **Responsive Design** for all devices
-- **Customizable** sections for team, roadmap, tokenomics, and more
-- **Easy Deployment** with Vercel or any hosting platform
-- **Lightweight & Performant** for a smooth user experience
+## Tech Stack
 
-## 📦 Installation
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Font**: Custom Stopbuck font
+- **Icons**: Custom SVG components
+- **Deployment**: Ready for Vercel, Netlify, or similar platforms
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/NuxTijNhaX/memecoin-website-template.git
-   cd memecoin-website-template
+## Getting Started
 
-2. Install dependencies:
-   ```sh
-   npm install
+### Prerequisites
 
-3. Run the development server:
-   ```sh
-   npm run dev
+- Node.js 18+ 
+- npm or yarn
 
-4. Open http://localhost:3000 in your browser.
+### Installation
 
-## 🎨 Customization
-- Edit content in components/ and pages/
-- Modify styles in styles/
-- Update branding assets in public/
+1. Clone the repository
+```bash
+git clone [your-repo-url]
+cd kitty-landing-page
+```
 
-## 📤 Deployment
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies
+```bash
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Run the development server
+```bash
+npm run dev
+```
 
-## ❤️ Support This Project
-If you find this template useful, consider donating to help maintain and improve it:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Solana Wallet Address:
-`665NQSovQNvT5k7wYVx5WZATQyoMqjhC8JWWmPTsSeq2`
+## Project Structure
 
-Any contributions are greatly appreciated! 🙏
+```
+├── app/
+│   ├── (landing)/
+│   │   ├── _components/     # Landing page components
+│   │   └── page.js         # Main landing page
+│   ├── fonts/              # Custom fonts
+│   ├── globals.css         # Global styles
+│   └── layout.js           # Root layout
+├── components/             # Reusable components
+│   ├── flags/              # Flag animations
+│   ├── icons/              # SVG icon components
+│   └── [other components]
+├── constants/              # App constants
+└── public/                 # Static assets
+```
+
+## Components
+
+### Landing Page Sections
+- **Hero**: Main title with contract address
+- **About**: Information about the project
+- **Exchanges**: Available trading platforms
+- **Tokenomics**: Token distribution details
+- **How to Buy**: Step-by-step purchase guide
+- **Footer**: Links and additional information
+
+### Reusable Components
+- **Icons**: Custom SVG icon set
+- **Cards**: Various card layouts
+- **Flags**: Animated flag components
+
+## Customization
+
+### Contract Address
+Update the contract address in `constants/index.js`:
+
+```javascript
+export const contractAddress = "your-contract-address-here";
+```
+
+### Styling
+- Global styles: `app/globals.css`
+- Tailwind config: `tailwind.config.js`
+- Custom colors and fonts are configured in the Tailwind config
+
+### Content
+All content can be modified in the respective component files under `app/(landing)/_components/`.
+
+## Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
+
+## Deployment
+
+This project is ready to deploy on:
+- **Vercel** (recommended)
+- **Netlify**
+- **Any static hosting service**
+
+Simply connect your repository to your preferred hosting platform.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Support
+
+For support, please open an issue in the repository or contact the development team.
