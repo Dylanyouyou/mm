@@ -16,7 +16,6 @@ export const metadata = {
   description: "Official landing page for $KITTY cryptocurrency token",
   keywords: ["cryptocurrency", "token", "blockchain", "crypto", "KITTY"],
   authors: [{ name: "KITTY Team" }],
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
     title: "$KITTY - Cryptocurrency Token",
@@ -29,6 +28,11 @@ export const metadata = {
     title: "$KITTY - Cryptocurrency Token",
     description: "Official landing page for $KITTY cryptocurrency token",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
