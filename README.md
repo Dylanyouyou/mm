@@ -24,23 +24,26 @@ A modern, responsive landing page built with Next.js for the $KITTY cryptocurren
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone [your-repo-url]
 cd kitty-landing-page
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Run the development server
+
 ```bash
 npm run dev
 ```
@@ -68,6 +71,7 @@ npm run dev
 ## Components
 
 ### Landing Page Sections
+
 - **Hero**: Main title with contract address
 - **About**: Information about the project
 - **Exchanges**: Available trading platforms
@@ -76,6 +80,7 @@ npm run dev
 - **Footer**: Links and additional information
 
 ### Reusable Components
+
 - **Icons**: Custom SVG icon set
 - **Cards**: Various card layouts
 - **Flags**: Animated flag components
@@ -83,6 +88,7 @@ npm run dev
 ## Customization
 
 ### Contract Address
+
 Update the contract address in `constants/index.js`:
 
 ```javascript
@@ -90,11 +96,13 @@ export const contractAddress = "your-contract-address-here";
 ```
 
 ### Styling
+
 - Global styles: `app/globals.css`
 - Tailwind config: `tailwind.config.js`
 - Custom colors and fonts are configured in the Tailwind config
 
 ### Content
+
 All content can be modified in the respective component files under `app/(landing)/_components/`.
 
 ## Scripts
@@ -109,6 +117,7 @@ npm run lint     # Run ESLint
 ## Deployment
 
 This project is ready to deploy on:
+
 - **Vercel** (recommended)
 - **Netlify**
 - **Any static hosting service**

@@ -14,9 +14,9 @@ export default function LandingPage() {
       <Header>
         <Nav />
       </Header>
-      
+
       <Hero />
-      
+
       <div className="bg-gray-200">
         <About />
         <Exchanges />

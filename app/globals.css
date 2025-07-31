@@ -38,15 +38,27 @@ body {
 
 /* Custom styles for animations and effects */
 .text-shadow {
-  text-shadow: 4px 0 0 #201a17, -4px 0 0 #201a17, 0 4px 0 #201a17,
-    0 -4px 0 #201a17, 4px 4px 0 #201a17, -4px -4px 0 #201a17,
-    -4px 4px 0 #201a17, 4px -4px 0 #201a17;
+  text-shadow:
+    4px 0 0 #201a17,
+    -4px 0 0 #201a17,
+    0 4px 0 #201a17,
+    0 -4px 0 #201a17,
+    4px 4px 0 #201a17,
+    -4px -4px 0 #201a17,
+    -4px 4px 0 #201a17,
+    4px -4px 0 #201a17;
 }
 
 .text-shadow-duis-not-hover {
-  text-shadow: 4px 0 0 #eac837, -4px 0 0 #eac837, 0 4px 0 #eac837,
-    0 -4px 0 #eac837, 4px 4px 0 #eac837, -4px -4px 0 #eac837,
-    -4px 4px 0 #eac837, 4px -4px 0 #eac837;
+  text-shadow:
+    4px 0 0 #eac837,
+    -4px 0 0 #eac837,
+    0 4px 0 #eac837,
+    0 -4px 0 #eac837,
+    4px 4px 0 #eac837,
+    -4px -4px 0 #eac837,
+    -4px 4px 0 #eac837,
+    4px -4px 0 #eac837;
 }
 
 .cloud {
@@ -54,7 +66,8 @@ body {
   aspect-ratio: 1.8 / 1;
   background: #e4e0e1;
   margin-left: -24px;
-  mask: radial-gradient(50% 50%, #000 98%, #0000) 100% 100% / 30% 60% no-repeat,
+  mask:
+    radial-gradient(50% 50%, #000 98%, #0000) 100% 100% / 30% 60% no-repeat,
     radial-gradient(50% 50%, #000 98%, #0000) 70% 0 / 50% 100% no-repeat,
     radial-gradient(50% 50%, #000 98%, #0000) 0 100% / 36% 68% no-repeat,
     radial-gradient(50% 50%, #000 98%, #0000) 27% 18% / 26% 40% no-repeat,
@@ -119,15 +132,27 @@ body {
 /* Responsive design utilities */
 @media (max-width: 640px) {
   .text-shadow {
-    text-shadow: 2px 0 0 #201a17, -2px 0 0 #201a17, 0 2px 0 #201a17,
-      0 -2px 0 #201a17, 2px 2px 0 #201a17, -2px -2px 0 #201a17,
-      -2px 2px 0 #201a17, 2px -2px 0 #201a17;
+    text-shadow:
+      2px 0 0 #201a17,
+      -2px 0 0 #201a17,
+      0 2px 0 #201a17,
+      0 -2px 0 #201a17,
+      2px 2px 0 #201a17,
+      -2px -2px 0 #201a17,
+      -2px 2px 0 #201a17,
+      2px -2px 0 #201a17;
   }
 
   .text-shadow-duis-not-hover {
-    text-shadow: 2px 0 0 #eac837, -2px 0 0 #eac837, 0 2px 0 #eac837,
-      0 -2px 0 #eac837, 2px 2px 0 #eac837, -2px -2px 0 #eac837,
-      -2px 2px 0 #eac837, 2px -2px 0 #eac837;
+    text-shadow:
+      2px 0 0 #eac837,
+      -2px 0 0 #eac837,
+      0 2px 0 #eac837,
+      0 -2px 0 #eac837,
+      2px 2px 0 #eac837,
+      -2px -2px 0 #eac837,
+      -2px 2px 0 #eac837,
+      2px -2px 0 #eac837;
   }
 }
 
